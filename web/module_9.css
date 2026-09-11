@@ -1,0 +1,18 @@
+:root {
+  --bg: #05070f;
+  --fg: #d7fff2;
+  --accent: #3dffb0;
+  --electric: #4d8dff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top left, #0b1a35, var(--bg));
+  color: var(--fg);
+  font: 15px/1.55 "Rajdhani", system-ui, sans-serif;
+  min-height: 100vh;
+}
+.shell { max-width: 960px; margin: 0 auto; padding: 48px 24px; }
+h1 { font: 700 42px "Orbitron", sans-serif; color: var(--accent); letter-spacing: 0.04em; }
+section#panels { display: grid; gap: 16px; margin-top: 32px; }
